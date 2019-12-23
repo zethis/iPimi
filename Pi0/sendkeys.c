@@ -30,7 +30,7 @@ static struct options kmod[] = {
 };
 
 static struct options kval[] = {
-	{.opt = "a",			.val = 0x04},
+	{.opt = "a",			.val = 0x14},
 	{.opt = "b",			.val = 0x05},
 	{.opt = "c",			.val = 0x06},
 	{.opt = "d",			.val = 0x07},
@@ -46,7 +46,7 @@ static struct options kval[] = {
 	{.opt = "n",			.val = 0x11},
 	{.opt = "o",			.val = 0x12},
 	{.opt = "p",			.val = 0x13},
-	{.opt = "q",			.val = 0x14},
+	{.opt = "q",			.val = 0x04},
 	{.opt = "r",			.val = 0x15},
 	{.opt = "s",			.val = 0x16},
 	{.opt = "t",			.val = 0x17},
