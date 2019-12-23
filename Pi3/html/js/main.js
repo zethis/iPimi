@@ -23,7 +23,7 @@ function sendKeysToServer() {
 }
 
 function sendKeyToServer(key) {
-	$.post("key.php", { tty: tty, k: key }, sendKeysToServer); 
+	$.post("/key", { tty: tty, k: key }, sendKeysToServer); 
 }
 
 function resetServer() {
